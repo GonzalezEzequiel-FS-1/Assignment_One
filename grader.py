@@ -1,23 +1,23 @@
 class MyGrader:
     def grade_student(self):
-        # Get Student's name
+        # Getting Student's name
         name = input("What's your name?\n")
         # If no name, return error
         if name == "":
             return 'Please answer all questions.'
-        # Get class Name
+        # Then get the class Name
         class_name = input(f"Hello {name}, can I get the assignment's name?\n")
         # If no class name return error
         if class_name == "":
             return 'Please answer all questions.'
         try:
-            # Try block to get grade as a float
+            # A try block to get grade as a float
             grade = round(float(input(f"Now, let's get your score in {class_name}.\n")), 1)
 
         except ValueError:
             return 'Please enter a valid numeric grade.'
 
-        # Conditional to return the grade and message depending on the student's grade
+        # Now we use a conditional to return the grade and message depending on the student's grade
         if 100 >= grade >= 90:
             letter_grade = 'A'
             passing = True
@@ -39,7 +39,7 @@ class MyGrader:
             message = 'you have missed all'
             passing = False
         else:
-            # Catch values above or under the specified threshold
+            # Catch values above or under the specified threshold <  0 and > 100
             return f'{name}, Please enter a numeric grade with a value between 0 and 100'
 
         # Dynamic Greeting depending on passing status

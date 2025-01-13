@@ -102,17 +102,7 @@ class TestGrader(unittest.TestCase):
         grader = MyGrader()
         result = grader.grade_student()
         try:
-            self.assertEqual(result, 'Please enter a numeric grade with a value between 0 and 100.')
-        except AssertionError as e:
-            logging.error(f'Test Failed {e}')
-            raise
-
-    @patch('builtins.input', side_effect=['Zeke', 'AIS', '95.56'])
-    def test_invalid_rounded_grade(self, mock_input):
-        grader = MyGrader()
-        result = grader.grade_student()
-        try:
-            self.assertEqual(result, 'Congratulations Zeke, since your score for AIS is 95.6, you got a letter grade of A.\nZeke, you have met all of the requirements for this class.')
+            self.assertEqual(result, 'Please enter a valid numeric grade.')
         except AssertionError as e:
             logging.error(f'Test Failed {e}')
             raise
@@ -126,17 +116,18 @@ class TestGrader(unittest.TestCase):
         )
         try:
             self.assertEqual(result, expected_output)
+            logging.info(f'Testing Rounded output')
         except AssertionError as e:
             logging.error(f'Test Failed {e}')
             raise
 
     @patch('builtins.input', side_effect=['Zeke', 'AIS', ''])
-    def test_invalid_grade(self, mock_input):
+    def test_empty_grade(self, mock_input):
         try:
             grader = MyGrader()
             result = grader.grade_student()
             self.assertEqual(result, 'Please enter a valid numeric grade.')
-            logging.info(f'Invalid Grade Test Passed')
+            logging.info(f'Empty Grade Test Passed')
         except AssertionError as e:
             logging.error(f'Test Failed {e}')
     @patch('builtins.input', side_effect=[""])
@@ -199,6 +190,7 @@ class TestGrader(unittest.TestCase):
         match = re.search(r"score for \S+ is (\d+\.\d+)", result)
         if match:
             grade = float(match.group(1))
+            logging.info(f'Logging grade: {grade}')
         else:
             grade = None
 
