@@ -1,28 +1,25 @@
-2025-01-12 18:52:14,549 - INFO - Assert Equal Test Passed at: test_edge_B (test_grader.TestGrader.test_edge_B)
-2025-01-12 18:52:14,549 - INFO - Edge "B" Grade check passed for 89.9 >= 80
-2025-01-12 18:52:14,549 - INFO - "B" Grade check passed for 89.9 >= 80 and 89.9 <= 89.9
-2025-01-12 18:52:14,549 - INFO - Assert True Passed in test_edge_B (test_grader.TestGrader.test_edge_B)
-2025-01-12 18:52:14,550 - INFO - Empty response Test Passed
-2025-01-12 18:52:14,551 - ERROR - Test Failed 'Please enter a numeric grade with a value between 0 and 100.' != 'Please enter a valid numeric grade.'
-- Please enter a numeric grade with a value between 0 and 100.
-+ Please enter a valid numeric grade.
-
-2025-01-12 18:52:14,551 - INFO - Checking edge case passed: Zeke, Please enter a numeric grade with a value between 0 and 100, provided None
-2025-01-12 18:52:14,551 - INFO - Assert True Passed in test_student_A (test_grader.TestGrader.test_student_A)
-2025-01-12 18:52:14,551 - INFO - Assert Equal Test Passed at: test_student_A (test_grader.TestGrader.test_student_A)
-2025-01-12 18:52:14,551 - INFO - Assert Multi Line Test Passed at: test_student_A (test_grader.TestGrader.test_student_A), comparing: Congratulations Zeke, since your score for AIS is 95.0, you got a letter grade of A.
+2025-01-12 19:02:29,734 - INFO - Assert Equal Test Passed at: test_edge_B (test_grader.TestGrader.test_edge_B)
+2025-01-12 19:02:29,734 - INFO - Edge "B" Grade check passed for 89.9 >= 80
+2025-01-12 19:02:29,734 - INFO - "B" Grade check passed for 89.9 >= 80 and 89.9 <= 89.9
+2025-01-12 19:02:29,734 - INFO - Assert True Passed in test_edge_B (test_grader.TestGrader.test_edge_B)
+2025-01-12 19:02:29,735 - INFO - Empty response Test Passed
+2025-01-12 19:02:29,735 - INFO - Invalid Grade Test Passed
+2025-01-12 19:02:29,735 - INFO - Checking edge case passed: Zeke, Please enter a numeric grade with a value between 0 and 100, provided None
+2025-01-12 19:02:29,736 - INFO - Assert True Passed in test_student_A (test_grader.TestGrader.test_student_A)
+2025-01-12 19:02:29,736 - INFO - Assert Equal Test Passed at: test_student_A (test_grader.TestGrader.test_student_A)
+2025-01-12 19:02:29,736 - INFO - Assert Multi Line Test Passed at: test_student_A (test_grader.TestGrader.test_student_A), comparing: Congratulations Zeke, since your score for AIS is 95.0, you got a letter grade of A.
 Zeke, you have met all of the requirements for this class. with: Congratulations Zeke, since your score for AIS is 95.0, you got a letter grade of A.
 Zeke, you have met all of the requirements for this class.
-2025-01-12 18:52:14,551 - INFO - "A" Grade check passed for 95.0 >= 90 and 95.0 <= 100
-2025-01-12 18:52:14,552 - INFO - Assert Equal Test Passed at: test_student_B (test_grader.TestGrader.test_student_B)
-2025-01-12 18:52:14,552 - INFO - "C" Grade check passed for 85.0 >= 80 and 85.0 <= 89.9
-2025-01-12 18:52:14,552 - INFO - Assert True Passed in test_student_B (test_grader.TestGrader.test_student_B)
-2025-01-12 18:52:14,552 - INFO - Assert Equal Test Passed at: test_student_C (test_grader.TestGrader.test_student_C)
-2025-01-12 18:52:14,552 - INFO - "C" Grade check passed for 75.0 >= 70 and 75.0 <= 79.9
-2025-01-12 18:52:14,552 - INFO - Assert True Passed in test_student_C (test_grader.TestGrader.test_student_C)
-2025-01-12 18:52:14,552 - INFO - Assert Equal Test Passed at: test_student_D (test_grader.TestGrader.test_student_D)
-2025-01-12 18:52:14,552 - INFO - "D" Grade check passed for 65.0 >= 60 and 65.0 <= 69.9
-2025-01-12 18:52:14,552 - INFO - Assert True Passed in test_student_D (test_grader.TestGrader.test_student_D)
-2025-01-12 18:52:14,552 - INFO - "F" Grade check passed for 10.0 >= 59
-2025-01-12 18:52:14,552 - INFO - Assert True Passed in test_student_F (test_grader.TestGrader.test_student_F)
-2025-01-12 18:52:14,552 - INFO - Checking edge case passed: Zeke, Please enter a numeric grade with a value between 0 and 100, provided None
+2025-01-12 19:02:29,736 - INFO - "A" Grade check passed for 95.0 >= 90 and 95.0 <= 100
+2025-01-12 19:02:29,736 - INFO - Assert Equal Test Passed at: test_student_B (test_grader.TestGrader.test_student_B)
+2025-01-12 19:02:29,736 - INFO - "C" Grade check passed for 85.0 >= 80 and 85.0 <= 89.9
+2025-01-12 19:02:29,736 - INFO - Assert True Passed in test_student_B (test_grader.TestGrader.test_student_B)
+2025-01-12 19:02:29,736 - INFO - Assert Equal Test Passed at: test_student_C (test_grader.TestGrader.test_student_C)
+2025-01-12 19:02:29,736 - INFO - "C" Grade check passed for 75.0 >= 70 and 75.0 <= 79.9
+2025-01-12 19:02:29,736 - INFO - Assert True Passed in test_student_C (test_grader.TestGrader.test_student_C)
+2025-01-12 19:02:29,736 - INFO - Assert Equal Test Passed at: test_student_D (test_grader.TestGrader.test_student_D)
+2025-01-12 19:02:29,736 - INFO - "D" Grade check passed for 65.0 >= 60 and 65.0 <= 69.9
+2025-01-12 19:02:29,736 - INFO - Assert True Passed in test_student_D (test_grader.TestGrader.test_student_D)
+2025-01-12 19:02:29,737 - INFO - "F" Grade check passed for 10.0 >= 59
+2025-01-12 19:02:29,737 - INFO - Assert True Passed in test_student_F (test_grader.TestGrader.test_student_F)
+2025-01-12 19:02:29,737 - INFO - Checking edge case passed: Zeke, Please enter a numeric grade with a value between 0 and 100, provided None

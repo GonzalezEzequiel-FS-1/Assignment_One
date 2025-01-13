@@ -15,7 +15,7 @@ class MyGrader:
             grade = round(float(input(f"Now, let's get your score in {class_name}.\n")), 1)
 
         except ValueError:
-            return 'Please enter a numeric grade with a value between 0 and 100.'
+            return 'Please enter a valid numeric grade.'
 
         # Conditional to return the grade and message depending on the student's grade
         if 100 >= grade >= 90:

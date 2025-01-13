@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3998846-4c4f-49b1-afb9-11a594cdc691" name="Changes" comment="All Done" />
+    <list default="true" id="a3998846-4c4f-49b1-afb9-11a594cdc691" name="Changes" comment="All Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grader.py" beforeDir="false" afterPath="$PROJECT_DIR$/grader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graderLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/graderLog.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
